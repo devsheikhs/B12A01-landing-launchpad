@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner-section {
+  font-family: 'Raleway', sans-serif;
+  background-image: url('../Assets/Hero-bg.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 1440px 652px;
+  min-height: 652px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  padding-top: 30px;
+}
+
+/* NAVIGATION */
+.heading-nav {
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.list-none {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+  margin-left: 0;
+}
+
+.btn-logo {
+  font-family: 'Inter', sans-serif;
+  font-size: 34px;
+  font-weight: 900;
+  color: #4E47FF;
+  text-decoration: none;
+}
+
+.btn-cls {
+  background-color: #4E47FF;
+  color: #FFFFFF;
+  padding: 10px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+/* HERO SECTION */
+.hero-banner {
+  margin-top: 210px;
+}
+
+.hero-banner h1 {
+  font-size: 65px;
+  color: #1f2937;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
